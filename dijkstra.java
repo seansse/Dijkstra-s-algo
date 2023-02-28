@@ -2,8 +2,8 @@ import java.util.PriorityQueue;
 import java.util.ArrayList;
 
 public static class Pair implements Comparable<Pair> {
-      int id;
-      int length;
+      private int id;
+      private int length;
       Pair(int id, int length) {
           this.id = id;
           this.length = length;
